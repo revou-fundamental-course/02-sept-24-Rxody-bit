@@ -40,9 +40,7 @@ html{
     background-position: center;
     align-self: center;
 }
-.btn-hitung{
-    
-}
+
 .btn-hitung > button{
     width: 70px;
     height: 70px;
@@ -65,4 +63,43 @@ html{
 }
 .side > aside{
     flex: 1;
+}
+
+.loas{
+    text-align: center;
+}
+.loas > input{
+    background-color: lightcyan;
+    border-radius: 8px;
+    width: 60px;
+    height: 50px;
+}
+.kel{
+    text-align: center;
+}
+.kel > input{
+    background-color: lightcyan;
+    border-radius: 8px;
+    width: 60px;
+    height: 50px;
+}
+.btn-reset-luas{
+    text-align: right;
+}
+.btn-reset-luas > input{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 8px;
+    width: 60px;
+    height: 50px;
+}
+.btn-reset-kel{
+    text-align: right;
+}
+.btn-reset-kel > input{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 8px;
+    width: 60px;
+    height: 50px;
 }
