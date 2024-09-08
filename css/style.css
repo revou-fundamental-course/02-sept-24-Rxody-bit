@@ -60,9 +60,11 @@ html{
 }
 .side{
     display: flex;
+    flex-wrap: wrap;
 }
 .side > aside{
     flex: 1;
+    
 }
 
 .loas{
