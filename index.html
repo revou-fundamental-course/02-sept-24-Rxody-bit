@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas revo u</title>
+    <link href="../css/style.css" rel="stylesheet"  type="text/css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 style="font-weight: bolder;">Welcome to Katik</h1>
+        <p>hei sobat, selamat datang di katik :) <br> Sebuah Web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar </p>
+    </header>
+
+    <main>
+        <section class="content">
+            <button href="#" type="button" class="selection-btn bisque-color">Luas Segitiga</button>
+            <button href="#" type="button" class="selection-btn white-color">Keliling Segitiga</button>
+        </section>
+
+        <section class="side">
+            <aside>
+                <section >
+                    <h1 class="content-en">luas Segitiga</h1>
+                </section>
+        
+                <article class="luas-segitiga-content">
+                    <div class="luas-segitiga-img"></div>
+                    <p>Rumus Luas Segitiga yaitu:</p>
+                    <p style="text-align: center;">L = 1/2 x a x t</p>
+                    <p>Di mana: <br>L = Luas <br>a = Panjang Alas <br>t = Tinggi <br>&nbsp;&nbsp;&nbsp;</p>
+                </article>
+                <hr>
+                <form>
+                    <h1 style="text-align: center;">Hitung Luas Segitiga</h1>
+                    <table>
+                        <tr>
+                            <td>Alas</td>
+                            <td>:</td>
+                            <td><input type="number" name="alas" id="alas"></td>
+                        </tr>
+                        <tr>
+                            <td>Tinggi</td>
+                            <td>:</td>
+                            <td><input type="number" name="tinggi" id="tinggi"></td>
+                        </tr>
+                        <tr>
+                            <td>Luas</td>
+                            <td>:</td>
+                            <td><input type="number" name="luas" id="luas" disabled="true" size="6"></td>
+                        </tr> 
+                    </table>
+                    <div class="loas">
+                        <input type="button" value="hitung" onclick="hitungluas()">
+                    </div>
+                    <div class="btn-reset-luas">
+                        <input type="reset" value="Reset" onclick="ResetLuas()">
+                    </div>
+                </form>
+
+            </aside>
+            
+            <aside>
+                <section >
+                    <h1 class="content-en" style="background-color: blanchedalmond;">Keliling Segitiga</h1>
+                </section>
+        
+                <article class="luas-segitiga-content">
+                    <div class="luas-segitiga-img"></div>
+                    <p>Rumus Keliling Segitiga yaitu:</p>
+                    <p style="text-align: center;">K = Sisi a + Sisi b + Sisi C</p>
+                    <p>Di mana: <br>K = Keliling <br>S1 = Sisi A <br>S2 = Sisi B <br>S3 = Sisi C</p>
+                </article>
+                <hr>
+                <form >
+                    <h1 style="text-align: center;">Hitung Keliling Segitiga</h1>
+                    <table>
+                        <tr>
+                            <td>SisiA</td>
+                            <td>:</td>
+                            <td><input type="number" id="S1"></td>
+                        </tr>
+                        <tr>
+                            <td>SisiB</td>
+                            <td>:</td>
+                            <td><input type="number" id="S2"></td>
+                        </tr>
+                        <tr>
+                            <td>SisiC</td>
+                            <td>:</td>
+                            <td><input type="number" id="S3"></td>
+                        </tr>
+                        <tr>
+                            <td>keliling</td>
+                            <td>:</td>
+                            <td><input type="number" id="keliling" name="keliling" disabled="true" size="5"></td>
+                        </tr>
+                    </table>
+                    <div class="kel">
+                        <input type="button" value="hitung" onclick="hitungkeliling()">
+                    </div>
+                    <div class="btn-reset-kel">
+                        <input type="reset" value="reset" onclick="resetkel()">
+                    </div>
+                </form>
+ 
+            </aside>
+        </section>
+       
+    </main>
+    
+</body>
+
+</html>
