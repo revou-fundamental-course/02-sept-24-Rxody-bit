@@ -9,7 +9,7 @@ function hitungluas(){
         sisi2 = +document.getElementById("S2").value;
         sisi3 = +document.getElementById("S3").value;
         keliling = sisi1 + sisi2 + sisi3;
-        document.getElementById("keliling").value=keliling;
+        document.getElementById("keliling").value=keliling
     }
     function resetkel(){
         sisi1 = +document.getElementById("S1").value;
